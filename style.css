@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        .profile-pic {
+            position: absolute;
+            top: 50px; /* Adjust the vertical position */
+            left: calc(50% - 75px); /* Adjust the horizontal position */
+            width: 150px; /* Adjust the size of the profile picture */
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff; /* Add a border for contrast */
+            overflow: hidden; /* Ensure circular shape */
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #666;
+        }
+        a {
+            text-decoration: none;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <img src="https://d3tbcwu355a66y.cloudfront.net/files/66106a448942140008700215/images.jpeg" alt="Profile Picture"></div>
+    <div class="profile-pic">
+        <img src="https://d3tbcwu355a66y.cloudfront.net/files/66106a448942140008700215/images.jpeg" alt="Profile Picture">
+    </div>
+    <div class="content">
+        <h2>Youssef Saad Shaker</h2>
+        <p>i am jo</p>
+        <p><strong>Passion:</strong> football</p>
+        <hr>
+        <p><em>Recent update Apr 5, 2024</em></p>
+        <p>ana hnam</p>
+        <hr>
+        <div class="contact-info">
+            <p><strong>Mobile:</strong> +20 - 1276007992</p>
+            <p><strong>Work:</strong> +852 - 457788898</p>
+            <p><strong>Email:</strong> djfojao@gmail.com</p>
+            <p><strong>Website:</strong> <a href="https://refrf.com">https://refrf.com</a></p>
+            <p><strong>Address:</strong> rgreeff</p>
+        </div>
+        <hr>
+        <div class="about">
+            <p><strong>Work:</strong> sw dev</p>
+            <p><em>ejada</em></p>
+            <p><strong>Education:</strong> ain shams</p>
+            <p><em>bach</em></p>
+            <p><strong>Relationship:</strong> single</p>
+        </div>
+    </div>
+</body>
+</html>
